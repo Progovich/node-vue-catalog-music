@@ -1,0 +1,66 @@
+#tracks-table,
+#artist-table {
+  width: auto;
+  margin: 10vh auto;
+
+  .add-link,
+  .edit {
+    padding: 0px 5px;
+    float: right;
+    border: none;
+    background: none;
+  }
+
+  .delete {
+    float: right;
+    border: none;
+    background: none;
+  }
+
+  .close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+  }
+
+  .wrapper {
+    float: right;
+  }
+
+  div.modal-body > div > select {
+    margin: 10px 0px;
+  }
+}
+
+#artist-table {
+  width: auto;
+}
+
+#app > div {
+  display: flex;
+}
+
+#app > div > .wrapper {
+  margin: auto 0px;
+  display: flex;
+  > button {
+    background-color: aqua;
+    font-weight: 600;
+  }
+}
+
+#Modal-filter {
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+}

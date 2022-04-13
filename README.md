@@ -1,24 +1,19 @@
-# hello-world
+# Музыкальный каталог
 
-## Project setup
-```
-yarn install
-```
+Выполнен в минималистичном функционале как тестовый проект. Есть backend и frontend.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Технологии
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- ExpressJS
+- Sequelize (PostgreSql)
+- Vue 3, router (frontend)
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Запуск
+В проекте есть возможность заполнить конфиг как в .env формате, так и json. Без указания всех параметров бот не запустится, есть проверка mocha на заполнение одного из файлов конфигурации. Example конфигов есть в проекте. Из имен нужно удалить "example" часть.
+Перед запуском нужно установить все зависимости в папке
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`npm i`
+
+В проекте уже есть готовый билд, так что для запуска нужна команда.
+
+`npm start`

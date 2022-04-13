@@ -1,0 +1,13 @@
+{
+  // Конфиги для БД
+  "NAME_DB_SQL": "catalog",
+  "USER_SQL": "postgres",
+  "PASSWORD_SQL": "admin",
+  "HOST_SQL": "",
+  "NODE_ENV": "",
+  // Режим разработки, который включается при указании 'development'
+  // включает логирование запросов
+  "NODE_ENV": "development",
+  //  express
+  "CATALOG_PORT": "5000"
+}

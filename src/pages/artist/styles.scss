@@ -1,0 +1,18 @@
+#catalog-table {
+  width: 30vw;
+  margin: 10vh auto;
+
+  .edit {
+    text-decoration: none;
+    float: right;
+  }
+  .delete {
+    float: right;
+    border: none;
+    background: none;
+    padding: 1px 6px;
+  }
+  .wrapper {
+    float: right;
+  }
+}
